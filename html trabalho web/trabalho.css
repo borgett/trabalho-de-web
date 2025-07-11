@@ -1,6 +1,6 @@
 .wrapper {
 	display: grid;
-	grid-template-columns: 150px 150px 200px 1400px 80px 80px 50px; 
+	grid-template-columns: 7% 7% 9.48% 66.35% 3.79% 3.79% 3.79%; 
 }
 .wrapper{
 	background-color: gray;
@@ -13,7 +13,7 @@ body{
 }
 .grid{
 	display:grid;
-	grid-template-columns:70px 250px 200px 200px 200px 200px 800px  200px;
+	grid-template-columns:3.30% 11.79% 9.43% 9.43% 9.43% 9.43% 37.74%  9.43%;
 	font-size: 25px;
 	background-color: white;
 	height: 60px
@@ -22,10 +22,31 @@ body{
 	background-color: #e50914;      
     color: white;                   
     border: none;                   
-    padding: 15px 30px;             
-    font-size: 16px;                
+    padding: 15px 20px;             
+    font-size: 15px;                
     border-radius: 5px;             
     cursor: pointer;               
     transition: background-color 0.3s ease;
 }
-
+.gridd{
+	display:grid;
+	grid-template-columns: 10000px 50px;
+	grid-template-rows: 150px 100px 200px 100px;
+}
+.botao {
+	color:white;
+	background-color:#FF0000;
+	border: none;
+	border-radius: 5px;
+	padding: 23px 35px;
+	font-size: 15px
+}
+h1{
+	color:white;
+	font-size: 25px;
+	
+}
+h2{
+	
+	color:white;
+}
