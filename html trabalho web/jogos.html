@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EA Play</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+     body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #2e003b, #000c3e);
+      color: white;
+    }
+
+    header {
+      background: transparent;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: red;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+    }
+
+    nav li {
+      cursor: pointer;
+    }
+
+    .btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 32px;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 30px 0;
+    }
+
+    .tab {
+      padding: 10px 15px;
+      background: #ffffff10;
+      color: white;
+      border: 1px solid white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .tab.active {
+      background: white;
+      color: black;
+      font-weight: bold;
+    }
+
+    .grid-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
+
+    table {
+      border-spacing: 20px;
+    }
+
+    td img {
+      width: 300px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    td img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🎮 EA <span>Play</span></div>
+    <nav>
+      <ul>
+        <li>Jogos</li>
+        <li>Benefícios de assinante</li>
+        <li>Notícias</li>
+        <li>Newsletter</li>
+        <li>PERGUNTAS FREQUENTES</li>
+      </ul>
+    </nav>
+    <button class="btn">Inscreva-se já</button>
+  </header>
+
+  <main>
+    <h1>Escolha a sua plataforma</h1>
+    <div class="tabs">
+      <div class="tab active">EA app - EA Play</div>
+      <div class="tab">EA app - EA Play Pro</div>
+      <div class="tab">Xbox</div>
+      <div class="tab">PlayStation®</div>
+      <div class="tab">Steam</div>
+      <div class="tab">Epic Games Store</div>
+    </div>
+
+    <div class="grid-container">
+      <table>
+        <tr>
+          <td><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/header.jpg" alt="FC 25"></td>
+          <td><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2287320/header.jpg" alt="Madden 25"></td>
+          <td><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2374640/header.jpg" alt="F1 24"></td>
+        </tr>
+        <tr>
+          <td><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/header.jpg" alt="Jogo 1"></td>
+          <td><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1328670/header.jpg" alt="Jogo 2"></td>
+          <td><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1811260/header.jpg" alt="Jogo 3"></td>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

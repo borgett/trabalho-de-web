@@ -9,7 +9,7 @@
 body{
 	background-image: url("12.jpg");
 	background-repeat: repeat-x;
-	background-size: auto auto;
+	background-size: 40%;
 }
 .grid{
 	display:grid;
@@ -30,8 +30,8 @@ body{
 }
 .gridd{
 	display:grid;
-	grid-template-columns: 10000px 50px;
-	grid-template-rows: 150px 100px 200px 100px;
+	grid-template-columns: 40% 60%;
+	grid-template-rows:  27.27%  18.18%   36.36%  18.18% ;
 }
 .botao {
 	color:white;
